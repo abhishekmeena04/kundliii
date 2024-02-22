@@ -19,10 +19,10 @@
   src: url("./Fonts/Shaloems.ttf");
   font-weight: 500;
 }
-@font-face{
-    font-family:"FH Giselle";
-    src: url("./Fonts//FHGiselle-Regular.ttf");
-    font-weight:400;
+@font-face {
+  font-family: "FH Giselle";
+  src: url("./Fonts//FHGiselle-Regular.ttf");
+  font-weight: 400;
 }
 
 * {
@@ -81,8 +81,8 @@ body {
   align-items: center;
   box-shadow: 0 0 1vmax #fc626a;
   background: linear-gradient(to right, #fe7d84, #fc626a);
-  box-shadow: 0 0 0.8vmax #49bff6;
-  background: linear-gradient(to right, #45d6e7, #38cdfa);
+  box-shadow: 0 0 0.8vmax rgb(73, 219, 24);
+  background: linear-gradient(to right, rgb(73, 209, 24), rgb(73, 209, 24));
   transition: 0.5s all;
   cursor: pointer;
 }
@@ -341,7 +341,7 @@ body {
 }
 #intro-div h5 span {
   font-size: 70px;
-  color: #ef6a93;
+  color: rgb(73, 219, 24);
   font-family: Shaloems;
   font-weight: 500;
 }
@@ -458,7 +458,7 @@ body {
 #page3 > h3 span {
   font-size: 4.8vmax;
   font-family: gilroy;
-  color: #38cdfa;
+  color: rgb(73, 219, 24);
 }
 
 #page3 > h5 {
@@ -910,7 +910,7 @@ body {
 }
 
 .linkedin {
-  color: #51cde7;
+  color: rgb(73, 219, 24);
 }
 
 footer {
